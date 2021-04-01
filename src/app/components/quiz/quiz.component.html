@@ -1,0 +1,6 @@
+<h2>My Quizzes</h2>
+<ul class="quizzes">
+  <li *ngFor="let quiz of quizList">
+    <span class="badge">{{quiz.id}}</span> {{quiz.author}}
+  </li>
+</ul>
